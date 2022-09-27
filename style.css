@@ -1,0 +1,392 @@
+/* reseteo css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+/*fuente*/
+
+
+
+
+/* header*/
+header {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.cont-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.enlace-menu {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding-left: 35px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont-port {
+    width: 100%;
+    display: flex;
+
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*LA REVOLUCION*/
+.bot-escuchar {
+    display: flex;
+    width: 75px;
+    background-color: rgba(53, 36, 232, 0.884);
+    border-radius: 25px;
+    padding: 6px 65px;
+    margin-top: 35px;
+    justify-content: center;
+
+}
+
+.cont-bot-esc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-bot-esc :hover {
+    transition: all;
+    background-color: rgb(255, 157, 10);
+}
+
+.enlace-dis {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lista-reproduccion {
+    display: flex;
+    justify-content: center;
+}
+
+.disco {
+    display: flex;
+    width: 30%;
+}
+
+.cont-tapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin: 40px;
+}
+
+.larev {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+/*shows*/
+.shows {
+
+}
+
+.band {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 8px;
+    margin: 10px;
+    border: solid 5px black;
+    margin-left: 670px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.band :hover{
+    transition: all;
+    background-color: black;
+    color: white;
+}
+
+.band-boton {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.cont-fec {
+    display: flex;
+    justify-content: center;
+}
+
+.fechas {
+    margin-top: 50px;
+    padding-left: 20%;
+}
+
+.fecha-1 {
+    border-top: 3px solid black;
+    width: 73%;
+}
+
+.fecha-2 {
+    border-top: 3px solid black;
+    width: 73%;
+}
+
+.fecha-3 {
+    border-top: 3px solid black;
+    width: 73%;
+}
+
+.bot-fecha1 {
+    display: inline-block;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 35px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 294px;
+}
+
+.bot-fecha2 {
+    display: inline-block;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 35px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 393px;
+}
+
+.bot-fecha3 {
+    display: inline-block;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 35px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 493px;
+    margin-bottom: 20%;
+}
+
+/*multimedia*/
+
+.clips {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-clips {
+    margin-top: 85px;
+}
+
+.videos-yt {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-yt {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.lab-yt {
+    margin: 30px;
+
+}
+
+.baj-yt {
+    margin: 30px;
+}
+
+h1 {
+    font-weight: 700px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.cont-canal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bot-canal {
+    display: flex;
+    justify-content: center;
+    width: 6%;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 6px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 19px;
+}
+
+.fotos {
+    width: 100%;
+    display: flex;
+}
+
+.cont-carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel1 {
+    width: 30%;
+    margin: 20px;
+}
+
+.carrusel2 {
+    width: 30%;
+    margin: 20px;
+}
+
+.carrusel3 {
+    width: 30%;
+    margin: 20px;
+}
+
+/*bio*/
+.bio-fondo {
+    background-image: url(imagenes/logo-fondo-bio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+article {
+    margin-top: 150px;
+}
+
+/*contacto*/
+
+.cont-contac {}
+
+.contacto {
+    margin-top: 75px;
+    padding-left: 380px;
+
+}
+
+h2 {
+    font-weight: 300;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+}
+
+#nombre {
+    width: 70%;
+    height: 25px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: beige;
+}
+
+#correo {
+    width: 70%;
+    height: 25px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: beige;
+}
+
+#mensaje {
+    width: 70%;
+    height: 320px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: beige;
+}
+
+.bot-enviar {
+    display: block;
+    width: 10%;
+    color: white;
+    font-weight: 300;
+    border-radius: 20px;
+    padding: 13px 32px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px black;
+    margin-left: 68%;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media only screen
