@@ -160,12 +160,6 @@ p {
     font-size: 22px;
 }
 
-.band :hover{
-    transition: all;
-    background-color: black;
-    color: white;
-}
-
 .band-boton {
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -239,6 +233,11 @@ p {
     margin-bottom: 20%;
 }
 
+.bot-fechascolor :hover{
+        transition: all;
+        color:black;
+}
+
 /*multimedia*/
 
 .clips {
@@ -248,7 +247,7 @@ p {
 }
 
 .tit-clips {
-    margin-top: 85px;
+
 }
 
 .videos-yt {
@@ -333,15 +332,18 @@ h1 {
 }
 
 article {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 /*contacto*/
 
-.cont-contac {}
+.cont-contac {
+    width: 100%;
+    display: flex;
+}
 
 .contacto {
-    margin-top: 75px;
+    margin-top: 10px;
     padding-left: 380px;
 
 }
@@ -354,24 +356,24 @@ h2 {
 }
 
 #nombre {
-    width: 70%;
+    width: 280%;
     height: 25px;
     border: solid 3px rgb(75, 75, 75);
-    background-color: beige;
+    background-color:  rgb(240, 240, 237);
 }
 
 #correo {
-    width: 70%;
+    width: 280%;
     height: 25px;
     border: solid 3px rgb(75, 75, 75);
-    background-color: beige;
+    background-color:  rgb(240, 240, 237);
 }
 
 #mensaje {
-    width: 70%;
+    width: 280%;
     height: 320px;
     border: solid 3px rgb(75, 75, 75);
-    background-color: beige;
+    background-color: rgb(240, 240, 237);
 }
 
 .bot-enviar {
@@ -389,4 +391,20 @@ h2 {
     font-size: 15px;
 }
 
-@media only screen
+/*mobile*/
+@media only screen and (max-width:450px){
+.portada{
+    
+}
+}
+
+
+/*tablet*/
+@media only only screen and (min-width:451px) and (max-width:960px){
+
+}
+
+/*desktop*/
+@media only screen and (min-width:961px){
+
+}
