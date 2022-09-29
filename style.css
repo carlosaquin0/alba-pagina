@@ -61,7 +61,6 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    bottom: 1;
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
@@ -142,9 +141,6 @@ p {
 }
 
 /*shows*/
-.shows {
-
-}
 
 .band {
     display: flex;
@@ -201,7 +197,7 @@ p {
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 294px;
+    top: 310px;
 }
 
 .bot-fecha2 {
@@ -215,7 +211,7 @@ p {
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 393px;
+    top: 409px;
 }
 
 .bot-fecha3 {
@@ -229,13 +225,13 @@ p {
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 493px;
+    top: 509px;
     margin-bottom: 20%;
 }
 
-.bot-fechascolor :hover{
-        transition: all;
-        color:black;
+.bot-fechascolor :hover {
+    transition: all;
+    color: black;
 }
 
 /*multimedia*/
@@ -246,9 +242,7 @@ p {
     justify-content: center;
 }
 
-.tit-clips {
-
-}
+.tit-clips {}
 
 .videos-yt {
     display: flex;
@@ -359,14 +353,14 @@ h2 {
     width: 280%;
     height: 25px;
     border: solid 3px rgb(75, 75, 75);
-    background-color:  rgb(240, 240, 237);
+    background-color: rgb(240, 240, 237);
 }
 
 #correo {
     width: 280%;
     height: 25px;
     border: solid 3px rgb(75, 75, 75);
-    background-color:  rgb(240, 240, 237);
+    background-color: rgb(240, 240, 237);
 }
 
 #mensaje {
@@ -391,20 +385,419 @@ h2 {
     font-size: 15px;
 }
 
-/*mobile*/
-@media only screen and (max-width:450px){
-.portada{
+/*
+mobile
+*/
+@media only screen and (max-width:450px) {
+    header {
+        height: 100px;
+    }
+
+    ul li {
+        padding-left: 13px;
+    }
+
+
+    .cont-footer {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .portada {
+        margin-top: 150px;
+        height: 240px;
+
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 80%;
+    }
+
+    .lista-reproduccion {
+        display: none;
+
+    }
+
+    /*multimedia*/
+    .baj-yt {
+        display: none;
+    }
+
+    .bot-canal {
+        width: 40%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+    .band {
+        font-size: 12px;
+        margin-left: 130px;
+        padding: 6px 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+
+    .bot-fecha1 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 320px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 384px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 448px;
+        text-align: center;
+    }
+
+    /*contacto*/
+    .contacto {
+        padding-left: 10px;
+    }
+
+    #nombre {
+        width: 207%;
+    }
+
+    #correo {
+        width: 207%;
+    }
+
+    #mensaje {
+        width: 207%;
+    }
+
+    .bot-enviar {
+        width: 35%;
+        margin-left: 60%;
+    }
+}
+
+/*
+tablet
+*/
+@media only screen and (min-width:451px) and (max-width:960px) {
+    header {
+        height: 80px;
+    }
+
+    ul li {
+        padding-left: 22px;
+    }
+
+    .cont-nav {
+        margin-top: 18px;
+    }
+
+    .cont-footer {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .portada {
+        margin-top: 150px;
+        height: 430px;
+
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 60%;
+    }
+
+
+    /*multimedia*/
+ 
+
+    .bot-canal {
+        width: 20%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+    .band {
+        font-size: 12px;
+        margin-left: 310px;
+        padding: 6px 35px;
+    }
     
-}
-}
+    
+    h1 {
+        font-size: 40px;
+    }
 
+    h2 {
+        font-size: 23px;
+    }
 
-/*tablet*/
-@media only only screen and (min-width:451px) and (max-width:960px){
+    h3 {
+        font-size: 19px;
+    }
 
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+
+    .bot-fecha1 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 313px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 407px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 500px;
+        text-align: center;
+    }
+
+    /*contacto*/
+    .contacto {
+        padding-left: 35px;
+    }
+
+    #nombre {
+        width: 313%;
+    }
+
+    #correo {
+        width: 313%;
+    }
+
+    #mensaje {
+        width: 313%;
+        height: 450px;
+    }
+
+    .bot-enviar {
+        width: 25%;
+        margin-left: 69%;
+    }
 }
 
 /*desktop*/
-@media only screen and (min-width:961px){
+@media only screen and (min-width:961px) and (max-width:1023px){
+    header {
+        height: 150px;
+    }
+    .enlace-menu{
+        font-size: 18px;
+    }
+    ul li {
+        padding-left: 40px;
+    }
 
+    .cont-nav {
+        margin-top: 45px;
+    }
+
+    .cont-footer {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .portada {
+        margin-top: 150px;
+        height: 600px;
+
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 60%;
+    }
+    .lista-reproduccion{
+        margin-left: 3%;
+    }
+
+    /*multimedia*/
+ 
+
+    .bot-canal {
+        width: 20%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+    .band {
+        font-size: 20px;
+        margin-left: 401px;
+        padding: 6px 35px;
+    }
+    
+    
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+
+    .bot-fecha1 {
+        padding: 3px 133px;
+        left: 505px;
+        top: 428px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 133px;
+        left: 505px;
+        top: 548px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 133px;
+        left: 505px;
+        top: 672px;
+        text-align: center;
+    }
+
+    /*contacto*/
+    .contacto {
+        padding-left: 35px;
+    }
+
+    #nombre {
+        width: 313%;
+    }
+
+    #correo {
+        width: 313%;
+    }
+
+    #mensaje {
+        width: 313%;
+        height: 450px;
+    }
+
+    .bot-enviar {
+        width: 25%;
+        margin-left: 69%;
+    }
 }
