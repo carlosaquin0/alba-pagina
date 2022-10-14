@@ -1,0 +1,806 @@
+/* reseteo css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+/*fuente*/
+
+
+
+
+/* header*/
+
+.cont-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    display: inline;
+    padding-left: 35px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*index*/
+
+.cont-port {
+    width: 100%;
+    display: flex;
+
+}
+
+.portada {
+    width: 100%;
+    display: flex;
+}
+
+.cont-port2 {
+    width: 100%;
+    display: none;
+}
+
+.cont-port3 {
+    width: 100%;
+    display: none;
+
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.iconos-redes {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*LA REVOLUCION*/
+.bot-escuchar {
+    display: flex;
+    width: 180px;
+    background-color: rgba(53, 36, 232, 0.884);
+    border-radius: 25px;
+    padding: 6px 65px;
+    margin-top: 35px;
+    justify-content: center;
+
+}
+
+.cont-bot-esc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-bot-esc :hover {
+    transition: all;
+    background-color: rgb(255, 157, 10);
+}
+
+.enlace-dis {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lista-reproduccion {
+    display: flex;
+    justify-content: center;
+}
+
+.disco {
+    display: flex;
+    width: 30%;
+}
+
+.cont-tapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin: 40px;
+}
+
+.larev {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+/*shows*/
+
+.band {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 8px;
+    margin: 10px;
+    border: solid 5px black;
+    margin-left: 670px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.band-boton {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-fec {
+    display: flex;
+    justify-content: center;
+}
+
+.fechas {
+    margin-top: 20px;
+    padding-left: 18%;
+    margin-bottom: 15px;
+}
+
+.fecha-1 {
+    border-top: 3px solid black;
+    width: 77%;
+}
+
+.fecha-2 {
+    border-top: 3px solid black;
+    width: 77%;
+}
+
+.fecha-3 {
+    border-top: 3px solid black;
+    width: 77%;
+}
+
+.bot-fecha1 {
+    display: inline-block;
+    width: 210px;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 30px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 305px;
+}
+
+.bot-fecha2 {
+    display: inline-block;
+    width: 210px;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 30px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 430px;
+}
+
+.bot-fecha3 {
+    display: inline-block;
+    width: 210px;
+    color: white;
+    border-radius: 15px;
+    padding: 4px 30px;
+    margin: 10px;
+    background-color: rgb(134, 134, 134);
+    border: solid 1px black;
+    position: absolute;
+    left: 1000px;
+    top: 555px;
+    margin-bottom: 100px;
+}
+
+.bot-fechascolor :hover {
+    transition: all;
+    color: black;
+}
+
+/*multimedia*/
+
+.clips {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lab-yt {
+    margin: 30px;
+
+}
+
+.baj-yt {
+    margin: 30px;
+}
+
+h1 {
+    font-weight: 700px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    font-style: ;
+}
+
+.cont-canal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bot-canal {
+    display: flex;
+    justify-content: center;
+    width: 6%;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 6px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 19px;
+}
+
+.fotos {
+    width: 100%;
+    display: flex;
+}
+
+.cont-carrusel {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    
+}
+
+/*bio*/
+.bio-fondo {
+    background-image: url(imagenes/logo-fondo-bio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+article {
+    margin-top: 50px;
+}
+p {
+    font-size: 20px;
+}
+
+/*contacto*/
+
+.cont-contac {
+    width: 100%;
+    display: flex;
+}
+
+.contacto {
+    margin-top: 10px;
+    padding-left: 380px;
+
+}
+
+h2 {
+    font-weight: 300;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+}
+
+#nombre {
+    width: 280%;
+    height: 25px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: rgb(240, 240, 237);
+}
+
+#correo {
+    width: 280%;
+    height: 25px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: rgb(240, 240, 237);
+}
+
+#mensaje {
+    width: 280%;
+    height: 320px;
+    border: solid 3px rgb(75, 75, 75);
+    background-color: rgb(240, 240, 237);
+}
+
+.bot-enviar {
+    display: block;
+    width: 10%;
+    color: white;
+    font-weight: 300;
+    border-radius: 20px;
+    padding: 13px 32px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px black;
+    margin-left: 68%;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*
+mobile
+*/
+@media only screen and (max-width:450px) {
+
+    ul li {
+        padding-left: 13px;
+    }
+
+
+    .cont-footer {
+        margin-top: 50px;
+    }
+
+    /*index*/
+    .cont-port {
+        display: none;
+    }
+
+    .cont-port2 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-2 {
+        width: 100%;
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 80%;
+    }
+
+    .lista-reproduccion {
+        display: none;
+
+    }
+
+    /*multimedia*/
+    .baj-yt {
+        display: none;
+    }
+
+    .bot-canal {
+        width: 40%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+    .band {
+        font-size: 12px;
+        margin-left: 130px;
+        padding: 6px 35px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+
+    .bot-fecha1 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 320px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 384px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 10px;
+        left: 205px;
+        top: 448px;
+        text-align: center;
+    }
+
+    /*contacto*/
+    .contacto {
+        padding-left: 10px;
+    }
+
+    #nombre {
+        width: 207%;
+    }
+
+    #correo {
+        width: 207%;
+    }
+
+    #mensaje {
+        width: 207%;
+    }
+
+    .bot-enviar {
+        width: 35%;
+        margin-left: 60%;
+    }
+}
+
+/*
+tablet
+*/
+@media only screen and (min-width:451px) and (max-width:960px) {
+
+
+    ul li {
+        padding-left: 22px;
+    }
+
+    .cont-nav {
+        margin-top: 18px;
+    }
+
+    .cont-footer {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .cont-port {
+        display: none;
+    }
+
+    .cont-port2 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-2 {
+        width: 100%;
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 60%;
+    }
+
+
+    /*multimedia*/
+
+
+    .bot-canal {
+        width: 20%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+    
+    .shows{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .band {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        padding: 6px 35px;
+    }
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+
+    .bot-fecha1 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 313px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 407px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 10px;
+        left: 525px;
+        top: 500px;
+        text-align: center;
+    }
+
+    /*contacto*/
+    .contacto {
+        padding-left: 35px;
+    }
+
+    #nombre {
+        width: 313%;
+    }
+
+    #correo {
+        width: 313%;
+    }
+
+    #mensaje {
+        width: 313%;
+        height: 450px;
+    }
+
+    .bot-enviar {
+        width: 25%;
+        margin-left: 69%;
+    }
+}
+
+/*desktop small*/
+@media only screen and (min-width:961px) and (max-width:1023px) {
+
+
+    .enlace-menu {
+        font-size: 18px;
+    }
+
+    ul li {
+        padding-left: 40px;
+    }
+
+    .cont-nav {
+        margin-top: 45px;
+    }
+
+    .cont-footer {
+        margin-top: 100px;
+    }
+
+    /*index*/
+    .cont-port {
+        display: none;
+    }
+
+    .cont-port3 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-3 {
+        width: 100%;
+    }
+
+    /*larevolucion*/
+    .disco {
+        width: 60%;
+    }
+
+    .lista-reproduccion {
+        margin-left: 3%;
+    }
+
+    /*multimedia*/
+
+
+    .bot-canal {
+        width: 20%;
+    }
+
+    .carrusel1 {
+        margin: 5px;
+    }
+
+    .carrusel2 {
+        margin: 5px;
+    }
+
+    .carrusel3 {
+        margin: 5px;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    /*shows*/
+
+
+
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+/*
+    .fechas {
+        padding-left: 10%;
+    }
+
+    .fecha-1 {
+        width: 90%;
+    }
+
+    .fecha-2 {
+        width: 90%;
+    }
+
+    .fecha-3 {
+        width: 90%;
+    }
+*/
+    .bot-fecha1 {
+        padding: 3px 20px;
+        left: 550px;
+        top: 428px;
+        text-align: center;
+    }
+
+    .bot-fecha2 {
+        padding: 3px 20px;
+        left: 550px;
+        top: 548px;
+        text-align: center;
+    }
+
+    .bot-fecha3 {
+        padding: 3px 20px;
+        left: 550px;
+        top: 565px;
+        text-align: center;
+    }
+    
+
+    /*contacto*/
+    .contacto {
+        padding-left: 35px;
+    }
+
+    #nombre {
+        width: 313%;
+    }
+
+    #correo {
+        width: 313%;
+    }
+
+    #mensaje {
+        width: 313%;
+        height: 450px;
+    }
+
+    .bot-enviar {
+        width: 25%;
+        margin-left: 69%;
+    }
+}

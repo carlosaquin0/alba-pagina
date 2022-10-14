@@ -8,43 +8,10 @@
 /*fuente*/
 
 
-
-
-/* header*/
-header {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 1%;
-}
-
-.cont-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.enlace-menu {
-    color: white;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    display: inline;
-    padding-left: 35px;
-}
-
-
-body {
+.fuentes {
     font-family: 'Poppins', sans-serif;
 }
+
 /*index*/
 
 .cont-port {
@@ -58,11 +25,12 @@ body {
     display: flex;
 }
 
-.cont-port2{
+.cont-port2 {
     width: 100%;
     display: none;
 }
-.cont-port3{
+
+.cont-port3 {
     width: 100%;
     display: none;
 
@@ -77,6 +45,12 @@ footer {
     margin-bottom: 10px;
     margin-top: 15px;
 }
+
+ul li {
+    display: inline;
+    padding-left: 35px;
+}
+
 
 .iconos-redes {
     display: flex;
@@ -94,7 +68,7 @@ a {
 /*LA REVOLUCION*/
 .bot-escuchar {
     display: flex;
-    width: 75px;
+    width: 180px;
     background-color: rgba(53, 36, 232, 0.884);
     border-radius: 25px;
     padding: 6px 65px;
@@ -170,6 +144,8 @@ p {
 .band-boton {
     color: rgb(0, 0, 0);
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .cont-fec {
@@ -178,66 +154,67 @@ p {
 }
 
 .fechas {
-    margin-top: 50px;
-    padding-left: 20%;
+    margin-top: 20px;
+    padding-left: 18%;
+    margin-bottom: 15px;
 }
 
 .fecha-1 {
     border-top: 3px solid black;
-    width: 73%;
+    width: 77%;
 }
 
 .fecha-2 {
     border-top: 3px solid black;
-    width: 73%;
+    width: 77%;
 }
 
 .fecha-3 {
     border-top: 3px solid black;
-    width: 73%;
+    width: 77%;
 }
 
 .bot-fecha1 {
     display: inline-block;
-    width: 100px;
+    width: 210px;
     color: white;
-    border-radius: 3px;
-    padding: 5px 35px;
+    border-radius: 15px;
+    padding: 4px 30px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 310px;
+    top: 305px;
 }
 
 .bot-fecha2 {
     display: inline-block;
-    width: 100px;
+    width: 210px;
     color: white;
-    border-radius: 3px;
-    padding: 5px 35px;
+    border-radius: 15px;
+    padding: 4px 30px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 409px;
+    top: 430px;
 }
 
 .bot-fecha3 {
     display: inline-block;
-    width: 100px;
+    width: 210px;
     color: white;
-    border-radius: 3px;
-    padding: 5px 35px;
+    border-radius: 15px;
+    padding: 4px 30px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
     left: 1000px;
-    top: 509px;
-    margin-bottom: 20%;
+    top: 555px;
+    margin-bottom: 100px;
 }
 
 .bot-fechascolor :hover {
@@ -253,19 +230,11 @@ p {
     justify-content: center;
 }
 
-.tit-clips {}
-
-.videos-yt {
+.videos-yt{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-
-.cont-yt {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
-
 .lab-yt {
     margin: 30px;
 
@@ -281,6 +250,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 20px;
+    font-style: ;
 }
 
 .cont-canal {
@@ -310,21 +280,10 @@ h1 {
 .cont-carrusel {
     display: flex;
     justify-content: center;
-}
-
-.carrusel1 {
-    width: 30%;
-    margin: 20px;
-}
-
-.carrusel2 {
-    width: 30%;
-    margin: 20px;
-}
-
-.carrusel3 {
-    width: 30%;
-    margin: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    
 }
 
 /*bio*/
@@ -338,6 +297,9 @@ h1 {
 
 article {
     margin-top: 50px;
+}
+p {
+    font-size: 20px;
 }
 
 /*contacto*/
@@ -400,9 +362,6 @@ h2 {
 mobile
 */
 @media only screen and (max-width:450px) {
-    header {
-        height: 100px;
-    }
 
     ul li {
         padding-left: 13px;
@@ -417,14 +376,17 @@ mobile
     .cont-port {
         display: none;
     }
-   .cont-port2 {
-    margin-top: 15px;
-    display: flex;
-    width: 100%;
-   }
-   .portada-2{
-    width: 100%;
-   }
+
+    .cont-port2 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-2 {
+        width: 100%;
+    }
+
     /*larevolucion*/
     .disco {
         width: 80%;
@@ -544,9 +506,7 @@ mobile
 tablet
 */
 @media only screen and (min-width:451px) and (max-width:960px) {
-    header {
-        height: 80px;
-    }
+
 
     ul li {
         padding-left: 22px;
@@ -564,14 +524,16 @@ tablet
     .cont-port {
         display: none;
     }
-   .cont-port2{
-    margin-top: 15px;
-    display: flex;
-    width: 100%;
-   }
-   .portada-2{
-    width: 100%;
-   }
+
+    .cont-port2 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-2 {
+        width: 100%;
+    }
 
     /*larevolucion*/
     .disco {
@@ -580,7 +542,7 @@ tablet
 
 
     /*multimedia*/
- 
+
 
     .bot-canal {
         width: 20%;
@@ -604,13 +566,21 @@ tablet
     }
 
     /*shows*/
+    
+    .shows{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
     .band {
         font-size: 12px;
-        margin-left: 310px;
+        display: flex;
+        justify-content: center;
         padding: 6px 35px;
     }
-    
-    
+
+
     h1 {
         font-size: 40px;
     }
@@ -685,13 +655,13 @@ tablet
 }
 
 /*desktop small*/
-@media only screen and (min-width:961px) and (max-width:1023px){
-    header {
-        height: 150px;
-    }
-    .enlace-menu{
+@media only screen and (min-width:961px) and (max-width:1023px) {
+
+
+    .enlace-menu {
         font-size: 18px;
     }
+
     ul li {
         padding-left: 40px;
     }
@@ -708,24 +678,28 @@ tablet
     .cont-port {
         display: none;
     }
-   .cont-port3 {
-    margin-top: 15px;
-    display: flex;
-    width: 100%;
-   }
-   .portada-3{
-    width: 100%;
-   }
+
+    .cont-port3 {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+
+    .portada-3 {
+        width: 100%;
+    }
+
     /*larevolucion*/
     .disco {
         width: 60%;
     }
-    .lista-reproduccion{
+
+    .lista-reproduccion {
         margin-left: 3%;
     }
 
     /*multimedia*/
- 
+
 
     .bot-canal {
         width: 20%;
@@ -749,13 +723,9 @@ tablet
     }
 
     /*shows*/
-    .band {
-        font-size: 20px;
-        margin-left: 401px;
-        padding: 6px 35px;
-    }
-    
-    
+
+
+
     h1 {
         font-size: 46px;
     }
@@ -767,7 +737,7 @@ tablet
     h3 {
         font-size: 24px;
     }
-
+/*
     .fechas {
         padding-left: 10%;
     }
@@ -783,27 +753,28 @@ tablet
     .fecha-3 {
         width: 90%;
     }
-
+*/
     .bot-fecha1 {
-        padding: 3px 133px;
-        left: 505px;
+        padding: 3px 20px;
+        left: 550px;
         top: 428px;
         text-align: center;
     }
 
     .bot-fecha2 {
-        padding: 3px 133px;
-        left: 505px;
+        padding: 3px 20px;
+        left: 550px;
         top: 548px;
         text-align: center;
     }
 
     .bot-fecha3 {
-        padding: 3px 133px;
-        left: 505px;
-        top: 672px;
+        padding: 3px 20px;
+        left: 550px;
+        top: 565px;
         text-align: center;
     }
+    
 
     /*contacto*/
     .contacto {
