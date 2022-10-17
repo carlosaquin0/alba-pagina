@@ -87,4 +87,61 @@ img .portada3 {
   display: none;
 }
 
+/*bot escuchar*/
+div .cont-bot-esc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div .cont-bot-esc div .bot-escuchar {
+  display: flex;
+  width: 180px;
+  background-color: rgba(53, 36, 232, 0.884);
+  border-radius: 25px;
+  padding: 6px 65px;
+  margin-top: 35px;
+  justify-content: center;
+}
+div .cont-bot-esc div .bot-escuchar a .enlace-dis {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cont-bot-esc :hover {
+  transition: all;
+  background-color: rgb(255, 157, 10);
+}
+
+/*tapa del disco*/
+div .larev {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+div .larev div .cont-tapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div .larev img .disco {
+  display: flex;
+  width: 30%;
+}
+
+/*Texto descriptivo del disco*/
+div p {
+  text-align: center;
+  margin: 40px;
+}
+
+/*lista spotify*/
+div .lista-reproduccion {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */

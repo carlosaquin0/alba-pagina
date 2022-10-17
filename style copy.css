@@ -288,7 +288,7 @@ h1 {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 3%;
-    
+
 }
 
 /*bio*/
@@ -303,6 +303,7 @@ h1 {
 article {
     margin-top: 50px;
 }
+
 p {
     font-size: 20px;
 }
@@ -571,8 +572,8 @@ tablet
     }
 
     /*shows*/
-    
-    .shows{
+
+    .shows {
         display: flex;
         justify-content: center;
         font-weight: bold;
@@ -742,7 +743,8 @@ tablet
     h3 {
         font-size: 24px;
     }
-/*
+
+    /*
     .fechas {
         padding-left: 10%;
     }
@@ -779,7 +781,7 @@ tablet
         top: 565px;
         text-align: center;
     }
-    
+
 
     /*contacto*/
     .contacto {
