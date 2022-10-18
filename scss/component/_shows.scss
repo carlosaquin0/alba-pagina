@@ -1,0 +1,104 @@
+/*shows*/
+
+/*Boton Bandsintown perfil*/
+div .band {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 8px;
+    margin: 10px;
+    border: solid 5px black;
+    margin-left: 670px;
+    text-align: center;
+    font-size: 22px;
+
+    div {
+        a {
+            .band-boton {
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+/*contenido fechas*/
+section .cont-fec {
+    display: flex;
+    justify-content: center;
+
+    div .fechas {
+        margin-top: 20px;
+        padding-left: 18%;
+        margin-bottom: 15px;
+
+        div {
+            div .fecha-sep {
+                border-top: 3px solid black;
+                width: 77%;
+            }
+
+            div .bot-fecha1 {
+                display: inline-block;
+                width: 210px;
+                color: white;
+                border-radius: 15px;
+                padding: 4px 30px;
+                margin: 10px;
+                background-color: rgb(134, 134, 134);
+                border: solid 1px black;
+                position: absolute;
+                left: 1000px;
+                top: 305px;
+            }
+
+            div .fecha-sep {
+                border-top: 3px solid black;
+                width: 77%;
+            }
+
+            div .bot-fecha2 {
+                display: inline-block;
+                width: 210px;
+                color: white;
+                border-radius: 15px;
+                padding: 4px 30px;
+                margin: 10px;
+                background-color: rgb(134, 134, 134);
+                border: solid 1px black;
+                position: absolute;
+                left: 1000px;
+                top: 430px;
+            }
+
+            div .fecha-sep {
+                border-top: 3px solid black;
+                width: 77%;
+            }
+
+            div .bot-fecha3 {
+                display: inline-block;
+                width: 210px;
+                color: white;
+                border-radius: 15px;
+                padding: 4px 30px;
+                margin: 10px;
+                background-color: rgb(134, 134, 134);
+                border: solid 1px black;
+                position: absolute;
+                left: 1000px;
+                top: 555px;
+                margin-bottom: 100px;
+            }
+
+        }
+    }
+}
+
+.bot-fechascolor :hover {
+    transition: all;
+    color: black;

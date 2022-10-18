@@ -166,7 +166,7 @@ p {
 
 .fecha-2 {
     border-top: 3px solid black;
-    width: 77%;
+    width: 77%; /*funcion*/
 }
 
 .fecha-3 {
@@ -220,7 +220,7 @@ p {
 .bot-fechascolor :hover {
     transition: all;
     color: black;
-}
+}/*variable*/
 
 /*multimedia*/
 
@@ -296,7 +296,7 @@ h1 {
 
 }
 
-article {
+.cont-bio {
     margin-top: 50px;
 }
 p {

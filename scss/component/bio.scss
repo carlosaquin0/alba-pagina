@@ -1,0 +1,12 @@
+/*bio*/
+
+main .bio-fondo {
+    background-image: url(imagenes/logo-fondo-bio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    article .cont-bio {
+        margin-top: 50px;
+    }
+}
