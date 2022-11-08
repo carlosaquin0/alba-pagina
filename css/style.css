@@ -88,7 +88,7 @@ img .portada3 {
 }
 
 /*La revolucion*/
-/*bot escuchar*/
+/*boton escuchar*/
 div .cont-bot-esc {
   width: 100%;
   display: flex;
@@ -143,6 +143,215 @@ div p {
 div .lista-reproduccion {
   display: flex;
   justify-content: center;
+}
+
+/*shows*/
+/*Boton Bandsintown perfil*/
+div .band {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  color: white;
+  border-radius: 20px;
+  padding: 6px 8px;
+  margin: 10px;
+  border: solid 5px black;
+  margin-left: 670px;
+  text-align: center;
+  font-size: 22px;
+}
+div .band div a .band-boton {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+/*contenido fechas*/
+section .cont-fec {
+  display: flex;
+  justify-content: center;
+}
+section .cont-fec div .fechas {
+  margin-top: 20px;
+  padding-left: 18%;
+  margin-bottom: 15px;
+}
+section .cont-fec div .fechas div div .fecha-sep {
+  border-top: 3px solid black;
+  width: 77%;
+}
+section .cont-fec div .fechas div div .bot-fecha1 {
+  display: inline-block;
+  width: 210px;
+  color: white;
+  border-radius: 15px;
+  padding: 4px 30px;
+  margin: 10px;
+  background-color: rgb(134, 134, 134);
+  border: solid 1px black;
+  position: absolute;
+  left: 1000px;
+  top: 305px;
+}
+section .cont-fec div .fechas div div .bot-fecha1:hover {
+  transition: all;
+  color: black;
+}
+section .cont-fec div .fechas div div .fecha-sep {
+  border-top: 3px solid black;
+  width: 77%;
+}
+section .cont-fec div .fechas div div .bot-fecha2 {
+  display: inline-block;
+  width: 210px;
+  color: white;
+  border-radius: 15px;
+  padding: 4px 30px;
+  margin: 10px;
+  background-color: rgb(134, 134, 134);
+  border: solid 1px black;
+  position: absolute;
+  left: 1000px;
+  top: 430px;
+}
+section .cont-fec div .fechas div div .bot-fecha2:hover {
+  transition: all;
+  color: black;
+}
+section .cont-fec div .fechas div div .fecha-sep {
+  border-top: 3px solid black;
+  width: 77%;
+}
+section .cont-fec div .fechas div div .bot-fecha3 {
+  display: inline-block;
+  width: 210px;
+  color: white;
+  border-radius: 15px;
+  padding: 4px 30px;
+  margin: 10px;
+  background-color: rgb(134, 134, 134);
+  border: solid 1px black;
+  position: absolute;
+  left: 1000px;
+  top: 555px;
+  margin-bottom: 100px;
+}
+section .cont-fec div .fechas div div .bot-fecha3:hover {
+  transition: all;
+  color: black;
+}
+
+/*multimedia*/
+section .clips {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+section .clips div .videos-yt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /*laberinto*/
+  /*bajamar*/
+}
+section .clips div .videos-yt iframe .lab-yt {
+  margin: 30px;
+}
+section .clips div .videos-yt iframe .baj-yt {
+  margin: 30px;
+}
+section .clips div .cont-canal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+section .clips div .cont-canal a .bot-canal {
+  display: flex;
+  justify-content: center;
+  width: 6%;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 6px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 19px;
+}
+
+section .fotos {
+  width: 100%;
+  display: flex;
+}
+section .fotos div.cont-carrusel {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+/*bio*/
+main .bio-fondo {
+  background-image: url(imagenes/logo-fondo-bio.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main .bio-fondo article .cont-bio {
+  margin-top: 50px;
+}
+
+/*contacto*/
+section .contacto {
+  background-color: rgb(216, 211, 211);
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .contacto form .form-contacto {
+  background-color: #000000;
+  width: 80%;
+  padding: 50px;
+  margin: 50px auto;
+}
+section .contacto div .form-fila input[type=text],
+section .contacto .form-fila input[type=email] {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+section .contacto div .form-fila input[type=text] .form-fila textarea,
+section .contacto .form-fila input[type=email] .form-fila textarea {
+  resize: none;
+  min-height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+section .contacto div .form-fila input[type=text] .form-fila input[type=email]:invalid,
+section .contacto .form-fila input[type=email] .form-fila input[type=email]:invalid {
+  border: solid 2px tomato;
+}
+section .contacto div .form-fila input[type=text] .form-fila button,
+section .contacto .form-fila input[type=email] .form-fila button {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

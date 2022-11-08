@@ -5,19 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagenes/logo-circu.png" type="image/x-icon">
-    <title>INICIO</title>
+    <!--icono-->
+    <link rel="shortcut icon" href="imagenes/logo-circu.ico" type="image/x-icon">
+    <!--titulo-->
+    <title>ALBA | SITIO OFICIAL</title>
+    <!--descripcion-->
+    <meta name="description"
+        content="Encontras novedadaes los proximos shows, ultimos lanzamientos y contenidos multimedia. Acceso directo a redes y contacto.">
+    <!--keywords-->
+    <meta name="keywords"
+        content="Musica, Rock Alternativo, Alternativo, Pop, Shows, Banda, Galeria, Videoclips, Biografia, Contacto, Redes sociales, Arte, Vivo">
+    <!--boopstrat-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--estilo-->
     <link rel="stylesheet" href="backup.css">
+    <!--fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--libreria animaciones-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- CSS only -->
 </head>
 
 <body>
@@ -45,20 +56,24 @@
     </header>
 
     <main>
-        <div class="cont-contac">
-            <form class="contacto">
-                <h2>NOMBRE Y APELLIDO:</h2>
-                <input type="text" name="nombre" id="nombre">
-
-                <h2>MAIL:</h2>
-                <input type="email" name="correo" id="correo">
-
-                <h2>MENSAJE:</h2>
-                <input type="text" name="mensaje" id="mensaje">
-
+        <section class="contacto">
+            <!--contacto -->
+            <form action="/server/" method="POST" enctype="application/x-www-form-urlencoded" class="form-contacto">
+                <div class="form-fila">
+                    <label for="nombre-completo" id="nombre-completo" name="nombre-completo">Nombre completo</label>
+                    <!--nombre y apellido-->
+                    <input type="text" placeholder="Nombre completo" required>
+                    <!--email-->
+                    <label for="email" id="email" name="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@albamail.com" required>
+                    <!--mensaje-->
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <!--boton enviar-->
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
-        </div>
-        <input class="bot-enviar" type="submit" value="ENVIAR">
+        </section>
     </main>
     <footer>
         <!--redes-->

@@ -126,6 +126,17 @@ p {
 }
 
 /*shows*/
+.cont-fec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fechas {
+   width: 80%;
+   padding: 50px;
+   margin: 10px auto;
+}
 
 .band {
     display: flex;
@@ -133,10 +144,10 @@ p {
     width: 10%;
     color: white;
     border-radius: 20px;
-    padding: 6px 8px;
+    padding: 12px 8px;
     margin: 10px;
     border: solid 5px black;
-    margin-left: 670px;
+    align-items: center;
     text-align: center;
     font-size: 22px;
 }
@@ -148,30 +159,19 @@ p {
     justify-content: center;
 }
 
-.cont-fec {
-    display: flex;
-    justify-content: center;
-}
-
-.fechas {
-    margin-top: 20px;
-    padding-left: 18%;
-    margin-bottom: 15px;
-}
-
 .fecha-1 {
     border-top: 3px solid black;
-    width: 77%;
+    width: 100%;
 }
 
 .fecha-2 {
     border-top: 3px solid black;
-    width: 77%; /*funcion*/
+    width: 100%; /*funcion*/
 }
 
 .fecha-3 {
     border-top: 3px solid black;
-    width: 77%;
+    width: 100%;
 }
 
 .bot-fecha1 {
@@ -184,8 +184,8 @@ p {
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 1000px;
-    top: 305px;
+    left: 70%;
+    top: 48%;
 }
 
 .bot-fecha2 {
@@ -198,8 +198,8 @@ p {
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 1000px;
-    top: 430px;
+    left: 70%;
+    top: 65%;
 }
 
 .bot-fecha3 {
@@ -212,8 +212,8 @@ p {
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 1000px;
-    top: 555px;
+    left: 70%;
+    top: 82%;
     margin-bottom: 100px;
 }
 
@@ -246,12 +246,11 @@ p {
 }
 
 h1 {
-    font-weight: 700px;
+    font-weight: 700px;          
     color: black;
     text-align: center;
     font-size: 50px;
     margin: 20px;
-    font-style: ;
 }
 
 .cont-canal {
@@ -276,15 +275,15 @@ h1 {
 .fotos {
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .cont-carrusel {
     display: flex;
-    justify-content: center;
     width: 50%;
-    margin: 0 auto;
-    margin-bottom: 3%;
-    
+    margin: 3px auto;
+    justify-content: center;
+    margin-left: 35%;    
 }
 
 /*bio*/
@@ -305,64 +304,68 @@ p {
 
 /*contacto*/
 
-.cont-contac {
-    width: 100%;
-    display: flex;
-}
-
-.contacto {
-    margin-top: 10px;
-    padding-left: 380px;
-
-}
-
-h2 {
-    font-weight: 300;
-    color: black;
-    text-align: left;
-    font-size: 30px;
-}
-
-#nombre {
-    width: 280%;
-    height: 25px;
-    border: solid 3px rgb(75, 75, 75);
-    background-color: rgb(240, 240, 237);
-}
-
-#correo {
-    width: 280%;
-    height: 25px;
-    border: solid 3px rgb(75, 75, 75);
-    background-color: rgb(240, 240, 237);
-}
-
-#mensaje {
-    width: 280%;
-    height: 320px;
-    border: solid 3px rgb(75, 75, 75);
-    background-color: rgb(240, 240, 237);
-}
-
-.bot-enviar {
-    display: block;
-    width: 10%;
+.contacto{
+    background-color: rgb(216, 211, 211);
     color: white;
-    font-weight: 300;
-    border-radius: 20px;
-    padding: 13px 32px;
-    margin: 10px;
-    background-color: rgb(0, 0, 0);
-    border: solid 1px black;
-    margin-left: 68%;
-    text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.form-contacto{
+    background-color: #000000;
+    width: 80%;
+    padding: 50px;
+    margin: 50px auto;
+}
+
+.form-fila input[type="text"],
+.form-fila input[type="email"]{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.form-fila textarea {
+    resize: none;
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.form-fila input[type="email"]:invalid{
+    border: solid 2px tomato;
+}
+
+.form-fila button{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+    margin: 20px 0px;
+}
+
 
 /*
 mobile
 */
 @media only screen and (max-width:450px) {
+
+    h1{
+        font-size: 12px;
+    } 
 
     ul li {
         padding-left: 13px;
@@ -404,7 +407,7 @@ mobile
     }
 
     .bot-canal {
-        width: 40%;
+        width: 45%;
     }
 
     .carrusel1 {
@@ -425,83 +428,9 @@ mobile
     }
 
     /*shows*/
-    .band {
-        font-size: 12px;
-        margin-left: 130px;
-        padding: 6px 35px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 13px;
-    }
-
-    h3 {
-        font-size: 13px;
-    }
-
-    .fechas {
-        padding-left: 10%;
-    }
-
-    .fecha-1 {
-        width: 90%;
-    }
-
-    .fecha-2 {
-        width: 90%;
-    }
-
-    .fecha-3 {
-        width: 90%;
-    }
-
-    .bot-fecha1 {
-        padding: 3px 10px;
-        left: 205px;
-        top: 320px;
-        text-align: center;
-    }
-
-    .bot-fecha2 {
-        padding: 3px 10px;
-        left: 205px;
-        top: 384px;
-        text-align: center;
-    }
-
-    .bot-fecha3 {
-        padding: 3px 10px;
-        left: 205px;
-        top: 448px;
-        text-align: center;
-    }
-
+  
     /*contacto*/
-    .contacto {
-        padding-left: 10px;
-    }
 
-    #nombre {
-        width: 207%;
-    }
-
-    #correo {
-        width: 207%;
-    }
-
-    #mensaje {
-        width: 207%;
-    }
-
-    .bot-enviar {
-        width: 35%;
-        margin-left: 60%;
-    }
-}
 
 /*
 tablet
@@ -546,7 +475,7 @@ tablet
 
 
     .bot-canal {
-        width: 20%;
+        width: 45%;
     }
 
     .carrusel1 {
@@ -568,91 +497,9 @@ tablet
 
     /*shows*/
     
-    .shows{
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-    }
-
-    .band {
-        font-size: 12px;
-        display: flex;
-        justify-content: center;
-        padding: 6px 35px;
-    }
-
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h2 {
-        font-size: 23px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .fechas {
-        padding-left: 10%;
-    }
-
-    .fecha-1 {
-        width: 90%;
-    }
-
-    .fecha-2 {
-        width: 90%;
-    }
-
-    .fecha-3 {
-        width: 90%;
-    }
-
-    .bot-fecha1 {
-        padding: 3px 10px;
-        left: 525px;
-        top: 313px;
-        text-align: center;
-    }
-
-    .bot-fecha2 {
-        padding: 3px 10px;
-        left: 525px;
-        top: 407px;
-        text-align: center;
-    }
-
-    .bot-fecha3 {
-        padding: 3px 10px;
-        left: 525px;
-        top: 500px;
-        text-align: center;
-    }
-
+   
     /*contacto*/
-    .contacto {
-        padding-left: 35px;
-    }
-
-    #nombre {
-        width: 313%;
-    }
-
-    #correo {
-        width: 313%;
-    }
-
-    #mensaje {
-        width: 313%;
-        height: 450px;
-    }
-
-    .bot-enviar {
-        width: 25%;
-        margin-left: 69%;
-    }
+ 
 }
 
 /*desktop small*/
@@ -703,7 +550,7 @@ tablet
 
 
     .bot-canal {
-        width: 20%;
+        width: 45%;
     }
 
     .carrusel1 {
@@ -726,18 +573,6 @@ tablet
     /*shows*/
 
 
-
-    h1 {
-        font-size: 46px;
-    }
-
-    h2 {
-        font-size: 29px;
-    }
-
-    h3 {
-        font-size: 24px;
-    }
 /*
     .fechas {
         padding-left: 10%;
@@ -755,48 +590,9 @@ tablet
         width: 90%;
     }
 */
-    .bot-fecha1 {
-        padding: 3px 20px;
-        left: 550px;
-        top: 428px;
-        text-align: center;
-    }
-
-    .bot-fecha2 {
-        padding: 3px 20px;
-        left: 550px;
-        top: 548px;
-        text-align: center;
-    }
-
-    .bot-fecha3 {
-        padding: 3px 20px;
-        left: 550px;
-        top: 565px;
-        text-align: center;
-    }
+    
     
 
     /*contacto*/
-    .contacto {
-        padding-left: 35px;
-    }
-
-    #nombre {
-        width: 313%;
-    }
-
-    #correo {
-        width: 313%;
-    }
-
-    #mensaje {
-        width: 313%;
-        height: 450px;
-    }
-
-    .bot-enviar {
-        width: 25%;
-        margin-left: 69%;
-    }
+   
 }

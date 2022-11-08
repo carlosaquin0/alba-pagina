@@ -1,0 +1,58 @@
+/*multimedia*/
+section .clips {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    div {
+    }
+
+    div .videos-yt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        /*laberinto*/
+        iframe .lab-yt {
+            margin: 30px;
+        }
+
+        /*bajamar*/
+        iframe .baj-yt {
+            margin: 30px;
+        }
+    }
+
+    div .cont-canal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a .bot-canal {
+            display: flex;
+            justify-content: center;
+            width: 6%;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 6px;
+            margin: 10px;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 19px;
+        }
+    }
+}
+
+section .fotos {
+    width: 100%;
+    display: flex;
+
+    div.cont-carrusel {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+
+    }
+}

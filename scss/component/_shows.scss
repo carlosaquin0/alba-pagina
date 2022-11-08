@@ -54,6 +54,11 @@ section .cont-fec {
                 position: absolute;
                 left: 1000px;
                 top: 305px;
+
+                &:hover{
+                    transition: all;
+                    color: black;
+                }
             }
 
             div .fecha-sep {
@@ -73,6 +78,11 @@ section .cont-fec {
                 position: absolute;
                 left: 1000px;
                 top: 430px;
+
+                &:hover{
+                    transition: all;
+                    color: black;
+                }
             }
 
             div .fecha-sep {
@@ -93,12 +103,14 @@ section .cont-fec {
                 left: 1000px;
                 top: 555px;
                 margin-bottom: 100px;
+
+                &:hover{
+                    transition: all;
+                    color: black;
+                }
             }
 
         }
     }
 }
 
-.bot-fechascolor :hover {
-    transition: all;
-    color: black;
