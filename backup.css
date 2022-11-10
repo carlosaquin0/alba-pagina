@@ -141,7 +141,7 @@ p {
 .band {
     display: flex;
     justify-content: center;
-    width: 10%;
+    width: 180px;
     color: white;
     border-radius: 20px;
     padding: 12px 8px;
@@ -162,58 +162,61 @@ p {
 .fecha-1 {
     border-top: 3px solid black;
     width: 100%;
+    position: relative;
 }
 
 .fecha-2 {
     border-top: 3px solid black;
-    width: 100%; /*funcion*/
+    width: 100%;
+    position: relative;
 }
 
 .fecha-3 {
     border-top: 3px solid black;
     width: 100%;
+    position: relative;
 }
 
 .bot-fecha1 {
     display: inline-block;
-    width: 210px;
+    width: 180px;
     color: white;
     border-radius: 15px;
-    padding: 4px 30px;
+    padding: 4px 20px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 70%;
-    top: 48%;
+    left: 77%;
+    top: 25%;
 }
 
 .bot-fecha2 {
     display: inline-block;
-    width: 210px;
+    width: 180px;
     color: white;
     border-radius: 15px;
-    padding: 4px 30px;
+    padding: 4px 20px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 70%;
-    top: 65%;
+    left: 77%;
+    top: 25%;
 }
 
 .bot-fecha3 {
     display: inline-block;
-    width: 210px;
+    width: 180px;
     color: white;
     border-radius: 15px;
-    padding: 4px 30px;
+    padding: 4px 20px;
     margin: 10px;
     background-color: rgb(134, 134, 134);
     border: solid 1px black;
     position: absolute;
-    left: 70%;
-    top: 82%;
+    left: 77%;
+    top: 25%;
     margin-bottom: 100px;
 }
 
@@ -363,6 +366,10 @@ mobile
 */
 @media only screen and (max-width:450px) {
 
+    .fuentes{
+        font-size: 14px;
+    }
+
     h1{
         font-size: 12px;
     } 
@@ -436,6 +443,10 @@ mobile
 tablet
 */
 @media only screen and (min-width:451px) and (max-width:960px) {
+
+    .fuentes{
+        font-size: 16px;
+    }
 
 
     ul li {
@@ -570,29 +581,6 @@ tablet
         margin-top: 50px;
     }
 
-    /*shows*/
-
-
-/*
-    .fechas {
-        padding-left: 10%;
-    }
-
-    .fecha-1 {
-        width: 90%;
-    }
-
-    .fecha-2 {
-        width: 90%;
-    }
-
-    .fecha-3 {
-        width: 90%;
-    }
-*/
-    
-    
-
-    /*contacto*/
+  
    
 }
